@@ -1,15 +1,15 @@
-/* color scheme sourced from http://khroma.co/generator/ */
+
 :root {
-  --outer-space: #33393f;
-  --bright-turquoise: #2aefcb;
-  --gin: #e0eae4;
-  --heliotrope: #e866ec;
+  --dark: #1d428a;
+  --secondary: #fec524;
+  --text: white;
+  --primary: #8b2131;
 }
 
 /* set content highlight color and background */
 ::selection {
-  background-color: var(--bright-turquoise);
-  color: var(--outer-space);
+  background-color: var(--secondary);
+  color: var(--dark);
 }
 
 html {
@@ -25,18 +25,21 @@ body {
   /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
   font-size: 1.75rem;
   line-height: 1.5;
-  color: var(--gin);
-  background-color: var(--outer-space);
+  color: var(--text);
+  background-color: var(--dark);
 }
 
-h1,
+h1{ 
+  color:  var(--secondary);
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   margin-bottom: 0.625rem;
-  color: var(--heliotrope);
+  color: var(--primary);
   font-weight: 700;
   line-height: 1.1;
 }
@@ -129,11 +132,11 @@ footer {
   justify-content: flex-start;
   min-height: 100%;
   padding: 2rem;
-  color: var(--heliotrope);
+  color: var(--secondary);
 
   /* outline is like border, but on the outside of the box instead of inside */
-  outline: 2px dashed var(--gin);
-  outline-offset: -2px;
+  border: 0 2px 2px 2px dashed var(--text);
+
   transition: all 0.5s ease-in-out;
 }
 
@@ -142,9 +145,9 @@ footer {
   position: relative;
   margin: -4rem 0 1.5rem 0;
   padding: 0.5rem 1rem;
-  background-color: var(--outer-space);
-  color: var(--heliotrope);
-  border: 2px solid var(--gin);
+  background-color: var(---dark);
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
@@ -152,7 +155,7 @@ footer {
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
 .code-card:hover,
 .code-card:hover .card-header {
-  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+  box-shadow: inset 0px 0px 8px var(--secondary), 0 0 15px var(--secondary);
 }
 
 /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
@@ -166,12 +169,12 @@ footer {
   overflow: auto;
   tab-size: 4;
   padding: 1.2rem 1rem;
-  color: var(--gin);
+  color: var(--text);
   border-radius: 8px;
   /* use linear-gradient() function to create a fading background  */
   background-image: linear-gradient(
-    rgba(232, 102, 236, 0.3) 0%,
-    rgba(232, 102, 236, 0.6) 100%
+    #8b21317c 0%,
+    #8b2131 100%
   );
   display: flex;
   align-items: center;
