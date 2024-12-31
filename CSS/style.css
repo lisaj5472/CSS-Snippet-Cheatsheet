@@ -1,8 +1,8 @@
 :root{
-    --primary-color: black;
+    --primary-color: #1d428a;
     --text-color: white;
-    --background: grey;
-    --card-gradient: linear-gradient(45deg, blue, red);
+    --background: #0e2240;
+    --card-gradient: linear-gradient(45deg, #0e2240, #fec524);
     --font-family: Arial; sans-serif;
 }
 
