@@ -1,6 +1,6 @@
 # CSS Snippet Cheat Sheet
 
-This project is a CSS Snippet Cheat Sheet developed as part of the University of Denver Coding Boot Camp. It serves as a handy reference for commonly used CSS snippets and techniques, facilitating quick access to essential code patterns for web development. Some of the code and design elements were provided by the University of Denver Coding Boot Camp educational team as part of the course curriculum.&#8203;:contentReference[oaicite:2]{index=2}
+This project is a CSS Snippet Cheat Sheet developed as part of the University of Denver Coding Boot Camp. It serves as a handy reference for commonly used CSS snippets and techniques, facilitating quick access to essential code patterns for web development. Some of the code and design elements were provided by the University of Denver Coding Boot Camp educational team as part of the course.
 
 ## Table of Contents
 
